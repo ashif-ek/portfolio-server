@@ -1,7 +1,7 @@
 {
   "name": "json-server-app",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "db.json",
   "scripts": {
     "start": "node server.js",
     "server": "json-server --watch db.json --port 5000"
@@ -10,4 +10,5 @@
     "json-server": "^0.17.4"
   }
 }
+
 
