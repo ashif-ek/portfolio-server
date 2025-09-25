@@ -1,14 +1,28 @@
 {
   "name": "json-server-app",
   "version": "1.0.0",
-  "main": "db.json",
+  "description": "A professional JSON Server backend for portfolio or demo projects",
+  "main": "server.js",
+  "engines": {
+    "node": "22.x",
+    "npm": "10.x"
+  },
   "scripts": {
     "start": "node server.js",
-    "server": "json-server --watch db.json --port 5000"
+    "dev": "json-server --watch db.json --port 5000",
+    "lint": "echo \"No linting configured yet\"",
+    "test": "echo \"No tests configured yet\""
   },
   "dependencies": {
     "json-server": "^0.17.4"
-  }
+  },
+  "keywords": [
+    "json-server",
+    "backend",
+    "api",
+    "mock-server",
+    "portfolio"
+  ],
+  "author": "Ashif",
+  "license": "MIT"
 }
-
-
