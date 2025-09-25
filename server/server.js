@@ -3,11 +3,16 @@ const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 
-const PORT = process.env.PORT || 5000;
-
+// Middlewares
 server.use(middlewares);
+
+// Routes
 server.use(router);
 
+// Port
+const PORT = process.env.PORT || 5000;
+
+// Start Server
 server.listen(PORT, (err) => {
   if (err) {
     console.error("Server failed to start:", err);
