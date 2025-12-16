@@ -4,7 +4,7 @@
     "showSkills": true,
     "showProjects": true,
     "showCertificates": true,
-    "maintenanceMode": true,
+    
     "siteTitle": "Ashif's Portfolio",
     "welcomeMessage": "Welcome to my digital space."
   },
@@ -308,4 +308,5 @@
     }
   ]
 }
+
 
